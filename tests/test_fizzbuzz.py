@@ -1,5 +1,13 @@
 import pytest
 
+def func(x):
+    return x + 1
+
+
+def test_answer():
+    assert func(3) == 5
+
+
 # - Can I call FizzBuzz
 # - Get "1" when pass in 1
 # - Get "2" when pass in 2
